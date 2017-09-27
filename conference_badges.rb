@@ -17,13 +17,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  rooms = []
-  counter = 0
-  attendees.each do |name|
-    counter += 1
-    rooms.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-  end
-  rooms.each do |x|
-    puts x
-  end
+  puts batch_badge_creator
+  puts assign_rooms
 end
