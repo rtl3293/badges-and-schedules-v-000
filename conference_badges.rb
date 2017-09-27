@@ -22,7 +22,6 @@ def printer(attendees)
   welcome_messages.each  do |messages|
     puts messages
   end
-
   rooms.each  do |room_numbers|
     puts room_numbers
   end
